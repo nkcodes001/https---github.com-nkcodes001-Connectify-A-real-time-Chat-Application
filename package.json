@@ -1,0 +1,28 @@
+{
+  "name": "connectify",
+  "version": "1.0.0",
+  "description": "A real time Chat Application made using MERN Stack!",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "Nabeel Khan",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.2",
+    "react-lottie": "^1.2.4",
+    "react-scrollable-feed": "^2.0.1",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4"
+  }
+}
